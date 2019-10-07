@@ -1,0 +1,45 @@
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    max-width: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a{
+    text-decoration: none;
+    color:black;
+    font-size: auto;
+    justify-self: auto;  
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+a:hover { 
+    color: black
+}
+
+nav {
+    width: auto;
+}
+
+.logo{
+    justify-items: left;
+}
+
+body {
+    background-color: #b9c8de;
+    margin: 0%;
+}
